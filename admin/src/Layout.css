@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.sidebarComponent{
+    flex: 1;
+}
+
+.pages{
+    flex: 4;
+}

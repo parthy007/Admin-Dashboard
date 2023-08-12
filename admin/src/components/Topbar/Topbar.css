@@ -1,0 +1,89 @@
+
+.topbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.top-right{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.icon-container{
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    color: #555;
+}
+
+.badge{
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+}
+
+.top-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.options{
+    display: none;
+    background-color: black;
+    border-radius: 5px;
+    top: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+.profile .options span{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profile:hover .options{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+    right: 3px;
+    top: 40px;
+}
+
