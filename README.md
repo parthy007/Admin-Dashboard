@@ -8,6 +8,7 @@ The Quickflix Admin Dashboard empowers you to manage various aspects of your Qui
 Only admin profiles are authorized to make changes to the database through this dashboard. To log in as an admin, use the following credentials:
 
 Email: admin@gmail.com
+
 Password: 1234
 
 # Features
